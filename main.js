@@ -26,7 +26,7 @@ person.introduceSelf();
 let human = {
   //Object
   firstname: "bob", //Properties
-  lastname: " bob marley",
+  lastname: " marley",
   adress: "Jamaica",
   age: "33",
   phoneNumbers: 555444333,
@@ -46,3 +46,8 @@ let human = {
   },
 };
 console.log(human.specs());
+console.table(human);
+console.table(person);
+
+let name = prompt("Say my name");
+alert("You're Goddamn Right");
